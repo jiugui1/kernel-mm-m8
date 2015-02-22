@@ -415,18 +415,9 @@ extern struct cpufreq_governor cpufreq_gov_abyssplug;
 #elif defined(CONFIG_CPU_FREQ_DEFAULT_GOV_ABYSSPLUGV2)
 extern struct cpufreq_governor cpufreq_gov_abyssplugv2;
 #define CPUFREQ_DEFAULT_GOVERNOR        (&cpufreq_gov_abyssplugv2)
-<<<<<<< HEAD
 #elif defined(CONFIG_CPU_FREQ_DEFAULT_GOV_ZZMOOVE)
 extern struct cpufreq_governor cpufreq_gov_zzmoove;
 #define CPUFREQ_DEFAULT_GOVERNOR       (&cpufreq_gov_zzmoove)
-=======
-#elif defined(CONFIG_CPU_FREQ_DEFAULT_GOV_HELLSACTIVE)
-extern struct cpufreq_governor cpufreq_gov_hellsactive;
-#define CPUFREQ_DEFAULT_GOVERNOR        (&cpufreq_gov_hellsactive)
-#elif defined(CONFIG_CPU_FREQ_DEFAULT_GOV_ELEMENTALX)
-extern struct cpufreq_governor cpufreq_gov_elementalx;
-#define CPUFREQ_DEFAULT_GOVERNOR	(&cpufreq_gov_elementalx)
->>>>>>> d924d4b... ElementalX Governor
 #endif
 
 
