@@ -415,6 +415,9 @@ extern struct cpufreq_governor cpufreq_gov_abyssplug;
 #elif defined(CONFIG_CPU_FREQ_DEFAULT_GOV_ABYSSPLUGV2)
 extern struct cpufreq_governor cpufreq_gov_abyssplugv2;
 #define CPUFREQ_DEFAULT_GOVERNOR        (&cpufreq_gov_abyssplugv2)
+#elif defined(CONFIG_CPU_FREQ_DEFAULT_GOV_ZZMOOVE)
+extern struct cpufreq_governor cpufreq_gov_zzmoove;
+#define CPUFREQ_DEFAULT_GOVERNOR       (&cpufreq_gov_zzmoove)
 #endif
 
 
